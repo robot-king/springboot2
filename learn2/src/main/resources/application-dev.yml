@@ -1,0 +1,11 @@
+database-ip: localhost
+database-port: 3306
+
+spring:
+  datasource:
+    username: root
+    password: root
+
+# 日志路径
+#logging:
+#  config: classpath:logback-dev.xml
