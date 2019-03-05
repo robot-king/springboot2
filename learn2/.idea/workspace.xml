@@ -161,6 +161,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learn2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +181,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551769874493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551769932726" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -334,7 +339,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6688000" />
+    <option name="totallyTimeSpent" value="6935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zhigushuo/learn2/Learn2ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
