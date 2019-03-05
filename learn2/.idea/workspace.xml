@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22b8b945-1930-49f7-9db5-a9a6ed8684fb" name="Default Changelist" comment="springboot2入门教程-配置" />
+    <list default="true" id="22b8b945-1930-49f7-9db5-a9a6ed8684fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="../learn3/target/" />
     <ignored path="target/" />
@@ -44,12 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zhigushuo/learn2/Learn2ApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10350" />
           </provider>
         </entry>
       </file>
@@ -181,7 +190,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551769932726" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551770102976" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,7 +258,7 @@
       <workItem from="1551767467409" duration="242000" />
       <workItem from="1551768407729" duration="145000" />
       <workItem from="1551768674028" duration="417000" />
-      <workItem from="1551769123289" duration="751000" />
+      <workItem from="1551769123289" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="springboot2入门教程-配置">
       <created>1551432360981</created>
@@ -335,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551769570010</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="springboot2入门教程-配置">
+      <created>1551770002421</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1551770002421</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
