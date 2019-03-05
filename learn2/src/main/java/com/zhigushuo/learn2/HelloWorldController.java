@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-
     @Value(value = "${spring.application.name}")
     private String projectName;
 
