@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c9a5f36-2a1d-4ba1-bac7-913b4b1a760b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learn3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhigushuo/learn3/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhigushuo/learn3/Learn3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhigushuo/learn3/UserProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhigushuo/learn1/Learn1ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learn2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,26 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhigushuo/learn3/HelloWorldController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
+            <state relative-caret-position="375">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DealThreadTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,7 +159,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551767334520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551767363441" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -236,16 +207,58 @@
       <option name="presentableId" value="Default" />
       <updated>1551686615237</updated>
       <workItem from="1551686618989" duration="3815000" />
-      <workItem from="1551754333933" duration="1697000" />
+      <workItem from="1551754333933" duration="1952000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot2入门教程-3-日志">
+      <created>1551767203794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767203794</updated>
+    </task>
+    <task id="LOCAL-00002" summary="springboot2入门教程-3-日志">
+      <created>1551767232367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767232367</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springboot2入门教程-3-日志">
+      <created>1551767258702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767258702</updated>
+    </task>
+    <task id="LOCAL-00004" summary="springboot2入门教程-3-日志">
+      <created>1551767313899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767313899</updated>
+    </task>
+    <task id="LOCAL-00005" summary="springboot2入门教程-3-日志">
+      <created>1551767332838</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767332838</updated>
+    </task>
+    <task id="LOCAL-00006" summary="springboot2入门教程-3-日志">
+      <created>1551767386293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767386293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5512000" />
+    <option name="totallyTimeSpent" value="5767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -261,7 +274,7 @@
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
@@ -284,6 +297,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot2入门教程-3-日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot2入门教程-3-日志" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -332,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhigushuo/learn3/HelloWorldController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/help.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -359,6 +369,13 @@
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhigushuo/learn3/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
