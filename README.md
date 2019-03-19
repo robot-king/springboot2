@@ -4,3 +4,4 @@ springboot2入门教程-2-配置
 
 springboot2入门教程-3-日志
 
+springboot2入门教程-4-thymeleaf
