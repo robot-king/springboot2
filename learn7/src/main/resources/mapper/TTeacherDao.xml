@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhigushuo.learn7.dao.TTeacherDao">
+
+    <resultMap type="com.zhigushuo.learn7.entity.TTeacher" id="TTeacherMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="TTeacherMap">
+        select
+          id, password, username, email
+        from test.t_teacher
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="TTeacherMap">
+        select
+          id, password, username, email
+        from test.t_teacher
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="TTeacherMap">
+        select
+        id, password, username, email
+        from test.t_teacher
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="email != null and email != ''">
+                and email = #{email}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insertSelective" keyProperty="id" useGeneratedKeys="true">
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into test.t_teacher
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="password != null">
+                password,
+            </if>
+            <if test="username != null">
+                username,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="password != null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update test.t_teacher
+        <set>
+            <if test="password != null and password != ''">
+                password = #{password},
+            </if>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="email != null and email != ''">
+                email = #{email},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from test.t_teacher where id = #{id}
+    </delete>
+
+</mapper>
