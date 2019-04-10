@@ -1,0 +1,11 @@
+# 请求配置
+server:
+  port: 3354
+  servlet:
+    context-path: /learn14
+
+# thymeleaf配置
+spring:
+  # 禁用 thymeleaf 缓存
+  thymeleaf:
+    cache: false
