@@ -1,0 +1,5 @@
+# 请求配置
+server:
+  port: 3355
+  servlet:
+    context-path: /learn15
