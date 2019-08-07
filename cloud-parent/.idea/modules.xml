@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth/auth.iml" filepath="$PROJECT_DIR$/auth/auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feignclient/feignclient.iml" filepath="$PROJECT_DIR$/feignclient/feignclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/focus1-eureka-server/focus1-eureka-server.iml" filepath="$PROJECT_DIR$/focus1-eureka-server/focus1-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbonclient/ribbonclient.iml" filepath="$PROJECT_DIR$/ribbonclient/ribbonclient.iml" />
+    </modules>
+  </component>
+</project>

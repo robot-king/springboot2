@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth" />
+        <module name="cloud-parent" />
+        <module name="eureka-client" />
+        <module name="feignclient" />
+        <module name="focus1-eureka-server" />
+        <module name="ribbon" />
+        <module name="ribbonclient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth" target="1.8" />
+      <module name="cloud-parent" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="feignclient" target="1.8" />
+      <module name="focus1-eureka-server" target="1.8" />
+      <module name="oauth" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="ribbonclient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
+      <module name="cloud-parent" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="feignclient" options="-parameters" />
+      <module name="focus1-eureka-server" options="-parameters" />
+      <module name="oauth" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="ribbonclient" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -12,8 +12,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import java.io.Serializable;
 
 /**
- * TODO 修改database
- *
  */
 @Configuration
 @AutoConfigureAfter(RedisAutoConfiguration.class)
